@@ -32,6 +32,4 @@ RSpec.describe Tofixmedo do
       end
     end
   end
-
-
 end
