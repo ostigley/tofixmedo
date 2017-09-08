@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "tofixmedo/version"
+# require "tofixmedo/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "tofixmedo"
-  spec.version       = Tofixmedo::VERSION
+  spec.version       = "0.0.2"
   spec.authors       = ["Oliver Stigley"]
   spec.email         = ["oliver@boost.co.nz"]
 
   spec.summary       = "Search though your code base for fixmes and todos"
   spec.description   = "List all the todos and fixmes in your code base with on simple command"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/ostigley/tofixmedo"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
