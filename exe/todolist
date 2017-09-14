@@ -3,6 +3,5 @@ require 'tofixmedo'
 
 path = ARGV.shift
 options = ARGV
-puts "Scanning #{path} with options #{options}"
 
 Tofixmedo::Scan.new(path, options).begin
